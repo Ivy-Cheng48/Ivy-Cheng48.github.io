@@ -11,9 +11,7 @@
     <!-- 導航欄 -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">
-                <span class="logo-icon">📚</span> Ivy 的設計藏書閣
-            </div>
+            <div class="logo">📚 Ivy 的設計藏書閣</div>
             <ul class="nav-links">
                 <li><a href="#home">首頁</a></li>
                 <li><a href="#library">書架</a></li>
@@ -24,117 +22,138 @@
     </nav>
 
     <!-- 首頁 - 圖書館大廳 -->
-    <section id="home" class="hero library-entrance">
-        <div class="library-background">
-            <div class="bookshelf-decoration shelf-1"></div>
-            <div class="bookshelf-decoration shelf-2"></div>
-            <div class="bookshelf-decoration shelf-3"></div>
+    <section id="home" class="hero">
+        <div class="library-hall">
+            <div class="hall-decoration left"></div>
+            <div class="hall-decoration right"></div>
         </div>
         
         <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="library-title">
-                    歡迎來到<br><span class="highlight">Ivy 的設計藏書閣</span>
-                </h1>
-                <p class="hero-description">
-                    每一個設計項目，都是一本獨特的故事書<br>
-                    在這裡，創意在每一頁綻放光芒
-                </p>
-                <a href="#library" class="cta-button">進入書架</a>
-            </div>
-            <div class="decorative-books">
-                <div class="floating-book book-1"></div>
-                <div class="floating-book book-2"></div>
-                <div class="floating-book book-3"></div>
-            </div>
+            <h1 class="library-title">
+                歡迎進入<br><span class="highlight">Ivy 的設計藏書閣</span>
+            </h1>
+            <p class="hero-description">
+                每一個設計項目，都是一本獨特的故事書<br>
+                在這裡，創意在每一頁綻放光芒
+            </p>
+            <a href="#library" class="cta-button">進入書架</a>
         </div>
     </section>
 
     <!-- 書架區域 -->
     <section id="library" class="library-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>📖 我的設計收藏</h2>
-                <p class="section-subtitle">每本書都記錄了一段創意的旅程</p>
-            </div>
+        <div class="library-background">
+            <div class="wood-texture"></div>
+        </div>
 
-            <!-- 書架 1 -->
+        <div class="container">
+            <h2 class="section-title">📖 我的設計收藏</h2>
+            <p class="section-subtitle">點擊書脊翻開完整作品</p>
+
+            <!-- 書架 -->
             <div class="bookshelf">
-                <div class="bookshelf-title">建築與空間</div>
-                <div class="books-container">
-                    <div class="book-card book-1-color">
-                        <div class="book-spine">
-                            <div class="book-spine-content">
-                                <div class="book-number">001</div>
-                                <h3 class="book-title">建築空間設計</h3>
-                                <p class="book-author">Ivy Cheng</p>
+                <!-- 書 1 -->
+                <div class="book-item">
+                    <div class="book">
+                        <div class="book-spine book-spine-1">
+                            <div class="spine-content">
+                                <div class="spine-number">001</div>
+                                <h3 class="spine-title">建築空間<br>設計</h3>
+                                <p class="spine-author">Ivy</p>
                             </div>
                         </div>
-                        <div class="book-cover">
-                            <div class="book-cover-content">
-                                <div class="book-icon">🏗️</div>
-                                <h3>建築空間設計</h3>
-                                <p class="book-category">建築設計</p>
-                                <p class="book-description">
-                                    探索現代建築與傳統元素的融合，
-                                    創造和諧的空間體驗。
-                                </p>
-                                <div class="book-tags">
+                        <div class="book-cover book-cover-1">
+                            <div class="cover-content">
+                                <div class="cover-top">
+                                    <span class="book-number">001</span>
+                                </div>
+                                <div class="cover-main">
+                                    <div class="cover-icon">🏗️</div>
+                                    <h3>建築空間設計</h3>
+                                    <p class="cover-subtitle">Architecture & Space</p>
+                                </div>
+                                <div class="cover-description">
+                                    <p>探索現代建築與傳統元素的融合，創造和諧的空間體驗。通過創新的設計理念，打造既美觀又實用的建築空間。</p>
+                                </div>
+                                <div class="cover-tags">
                                     <span class="tag">建築</span>
                                     <span class="tag">空間</span>
                                     <span class="tag">創新</span>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="book-card book-2-color">
-                        <div class="book-spine">
-                            <div class="book-spine-content">
-                                <div class="book-number">002</div>
-                                <h3 class="book-title">室內設計項目</h3>
-                                <p class="book-author">Ivy Cheng</p>
-                            </div>
-                        </div>
-                        <div class="book-cover">
-                            <div class="book-cover-content">
-                                <div class="book-icon">🎨</div>
-                                <h3>室內設計項目</h3>
-                                <p class="book-category">室內設計</p>
-                                <p class="book-description">
-                                    通過色彩、材質和光線的巧妙運用，
-                                    打造舒適的生活空間。
-                                </p>
-                                <div class="book-tags">
-                                    <span class="tag">室內</span>
-                                    <span class="tag">設計</span>
-                                    <span class="tag">美學</span>
+                                <div class="cover-footer">
+                                    Ivy Cheng © 2026
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="book-card book-3-color">
-                        <div class="book-spine">
-                            <div class="book-spine-content">
-                                <div class="book-number">003</div>
-                                <h3 class="book-title">概念設計方案</h3>
-                                <p class="book-author">Ivy Cheng</p>
+                <!-- 書 2 -->
+                <div class="book-item">
+                    <div class="book">
+                        <div class="book-spine book-spine-2">
+                            <div class="spine-content">
+                                <div class="spine-number">002</div>
+                                <h3 class="spine-title">室內設計<br>項目</h3>
+                                <p class="spine-author">Ivy</p>
                             </div>
                         </div>
-                        <div class="book-cover">
-                            <div class="book-cover-content">
-                                <div class="book-icon">📐</div>
-                                <h3>概念設計方案</h3>
-                                <p class="book-category">概念設計</p>
-                                <p class="book-description">
-                                    大膽創新的設計理念，
-                                    為未來的空間注入新的生命。
-                                </p>
-                                <div class="book-tags">
+                        <div class="book-cover book-cover-2">
+                            <div class="cover-content">
+                                <div class="cover-top">
+                                    <span class="book-number">002</span>
+                                </div>
+                                <div class="cover-main">
+                                    <div class="cover-icon">🎨</div>
+                                    <h3>室內設計項目</h3>
+                                    <p class="cover-subtitle">Interior Design</p>
+                                </div>
+                                <div class="cover-description">
+                                    <p>通過色彩、材質和光線的巧妙運用，打造舒適的生活空間。每一個細節都經過精心設計，為居住者創造最佳體驗。</p>
+                                </div>
+                                <div class="cover-tags">
+                                    <span class="tag">室內</span>
+                                    <span class="tag">設計</span>
+                                    <span class="tag">美學</span>
+                                </div>
+                                <div class="cover-footer">
+                                    Ivy Cheng © 2026
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 書 3 -->
+                <div class="book-item">
+                    <div class="book">
+                        <div class="book-spine book-spine-3">
+                            <div class="spine-content">
+                                <div class="spine-number">003</div>
+                                <h3 class="spine-title">概念設計<br>方案</h3>
+                                <p class="spine-author">Ivy</p>
+                            </div>
+                        </div>
+                        <div class="book-cover book-cover-3">
+                            <div class="cover-content">
+                                <div class="cover-top">
+                                    <span class="book-number">003</span>
+                                </div>
+                                <div class="cover-main">
+                                    <div class="cover-icon">📐</div>
+                                    <h3>概念設計方案</h3>
+                                    <p class="cover-subtitle">Concept Design</p>
+                                </div>
+                                <div class="cover-description">
+                                    <p>大膽創新的設計理念，為未來的空間注入新的生命。跳出傳統框架，用前瞻性思維重新詮釋設計的可能性。</p>
+                                </div>
+                                <div class="cover-tags">
                                     <span class="tag">創意</span>
                                     <span class="tag">概念</span>
                                     <span class="tag">未來</span>
+                                </div>
+                                <div class="cover-footer">
+                                    Ivy Cheng © 2026
                                 </div>
                             </div>
                         </div>
@@ -163,23 +182,6 @@
                         探索設計背後的故事和靈感。
                     </p>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <div class="stat-icon">📖</div>
-                        <div class="stat-number">3</div>
-                        <div class="stat-label">藏書</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">🎨</div>
-                        <div class="stat-number">建築</div>
-                        <div class="stat-label">專業</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">✨</div>
-                        <div class="stat-number">創意</div>
-                        <div class="stat-label">核心</div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -188,7 +190,7 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2>📬 寄一封信給我</h2>
-            <p>如果你喜歡我的作品，或想要探討設計想法，歡迎聯絡我</p>
+            <p>如果你喜歡我的作品，或想要探討設計想法</p>
             <a href="mailto:Ivycheng148@gmail.com" class="contact-link">
                 ✉️ Ivycheng148@gmail.com
             </a>
@@ -197,9 +199,7 @@
 
     <!-- 頁腳 -->
     <footer>
-        <div class="container">
-            <p>© 2026 Ivy Cheng's Design Library. 用設計編織故事。</p>
-        </div>
+        <p>© 2026 Ivy Cheng's Design Library. 用設計編織故事。</p>
     </footer>
 
     <script src="script.js"></script>
