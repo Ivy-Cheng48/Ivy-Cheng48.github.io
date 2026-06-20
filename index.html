@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivy Cheng - 作品集</title>
+    <title>Ivy Cheng - 建築設計作品集</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- 導航欄 -->
     <nav class="navbar">
         <div class="container">
-            <div class="logo">Ivy Cheng</div>
+            <div class="logo">
+                <span class="logo-icon">◆</span> Ivy Cheng
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">首頁</a></li>
                 <li><a href="#about">關於</a></li>
@@ -20,47 +23,158 @@
         </div>
     </nav>
 
-    <!-- 首頁 -->
+    <!-- 首頁英雄部分 -->
     <section id="home" class="hero">
-        <div class="container">
-            <h1>Ivy Cheng</h1>
-            <p class="subtitle">建築系學生 / 設計愛好者</p>
-            <p class="description">用設計和創意打造美好空間</p>
-            <a href="#projects" class="cta-button">查看作品</a>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="highlight">Ivy Cheng</span>
+                </h1>
+                <p class="hero-subtitle">建築系學生 / 設計師</p>
+                <p class="hero-description">
+                    用創意和想像力<br>
+                    打造每一個獨特的空間
+                </p>
+                <a href="#projects" class="cta-button">探索作品</a>
+            </div>
+            <div class="hero-decoration">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
         </div>
     </section>
 
     <!-- 關於 -->
     <section id="about" class="about">
         <div class="container">
-            <h2>關於我</h2>
-            <p>
-                我是一位建築系學生，對設計充滿熱情。
-                通過設計項目，我不斷探索創意的可能性，
-                致力於創造既美觀又實用的設計作品。
-            </p>
+            <div class="section-header">
+                <h2>關於我</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        我是一位充滿熱情的建築系學生，對設計和空間規劃有著深厚的興趣。
+                        通過不斷的探索和實踐，我致力於將創意理念轉化為實際的設計作品。
+                    </p>
+                    <p>
+                        每個項目都是一次挑戰，也是一次學習。我相信好的設計
+                        不僅要美觀，更要功能性和創新性的完美結合。
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">設計項目</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">建築</div>
+                        <div class="stat-label">專業方向</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">創意</div>
+                        <div class="stat-label">核心精神</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- 作品展示 -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2>設計作品</h2>
+            <div class="section-header">
+                <h2>設計作品</h2>
+                <div class="divider"></div>
+            </div>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image">🏗️</div>
-                    <h3>Design Project 1</h3>
-                    <p>設計項目描述</p>
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <span class="project-icon">🏗️</span>
+                        </div>
+                        <div class="project-overlay">查看詳情</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>建築空間設計</h3>
+                        <p class="project-category">建築設計</p>
+                        <p class="project-description">
+                            探索現代建築與傳統元素的融合，
+                            創造和諧的空間體驗。
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">建築</span>
+                            <span class="tag">空間</span>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="project-card">
-                    <div class="project-image">🎨</div>
-                    <h3>Design Project 2</h3>
-                    <p>設計項目描述</p>
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <span class="project-icon">🎨</span>
+                        </div>
+                        <div class="project-overlay">查看詳情</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>室內設計項目</h3>
+                        <p class="project-category">室內設計</p>
+                        <p class="project-description">
+                            通過色彩、材質和光線的巧妙運用，
+                            打造舒適的生活空間。
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">室內</span>
+                            <span class="tag">設計</span>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="project-card">
-                    <div class="project-image">📐</div>
-                    <h3>Design Project 3</h3>
-                    <p>設計項目描述</p>
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <span class="project-icon">📐</span>
+                        </div>
+                        <div class="project-overlay">查看詳情</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>概念設計方案</h3>
+                        <p class="project-category">概念設計</p>
+                        <p class="project-description">
+                            大膽創新的設計理念，
+                            為未來的空間注入新的生命。
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">創意</span>
+                            <span class="tag">概念</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能部分 -->
+    <section class="skills">
+        <div class="container">
+            <h2>專業技能</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">📏</div>
+                    <h4>建築設計</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🎨</div>
+                    <h4>室內設計</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">💻</div>
+                    <h4>設計軟體</h4>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">✏️</div>
+                    <h4>手繪表達</h4>
                 </div>
             </div>
         </div>
@@ -69,15 +183,31 @@
     <!-- 聯絡 -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>聯絡我</h2>
-            <p>歡迎與我聯繫</p>
-            <a href="mailto:Ivycheng148@gmail.com" class="contact-link">📧 Ivycheng148@gmail.com</a>
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2>讓我們合作</h2>
+                    <p>
+                        如果你對我的作品感興趣，或有任何合作機會，
+                        <br>歡迎隨時與我聯繫！
+                    </p>
+                </div>
+                <div class="contact-methods">
+                    <a href="mailto:Ivycheng148@gmail.com" class="contact-link">
+                        <span class="contact-icon">✉️</span>
+                        <span class="contact-text-method">Ivycheng148@gmail.com</span>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- 頁腳 -->
     <footer>
-        <p>&copy; 2026 Ivy Cheng. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Ivy Cheng. Designed with passion.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
